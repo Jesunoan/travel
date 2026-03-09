@@ -1567,8 +1567,8 @@ to { opacity:1; transform:translateX(-50%) translateY(0)}
   <div id="urlImportPanel" style="display: none;">
     <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 10px; margin-bottom: 10px;">
       <div style="font-size: 11px; color: #0369a1; margin-bottom: 8px;">
-        支持 GitHub Raw直链，格式示例：<br>
-        <code style="background: rgba(255,255,255,0.8); padding: 1px 2px; border-radius: 2px; font-size: 6px;">https://raw.githubusercontent.com/Jesunoan/travel/main/city_library.json</code>
+        支持 GitHub Raw直链，格式示例<br>
+        <code style="background: rgba(255,255,255,0.8); padding: 2px 4px; border-radius: px; font-size: 10px;"></code>
       </div>
       <input type="text" id="libraryUrlInput" placeholder="请使用示例景点库JSON文件的URL..." 
              style="width: 100%; padding: 10px 12px; border: 2px solid #bae6fd; border-radius: 6px; font-size: 13px; font-family: monospace; margin-bottom: 10px;">
@@ -1624,9 +1624,7 @@ to { opacity:1; transform:translateX(-50%) translateY(0)}
 
 // ===== 景点库导入功能（已合并到下方）=====
 
-// ===== 景点库管理功能（本地导入 + 网络加载 合并版）=====
-
-const DEFAULT_LIBRARY_URL = 'https://raw.githubusercontent.com/yourusername/yourrepo/main/city_library.json';
+const DEFAULT_LIBRARY_URL = 'https://raw.githubusercontent.com/Jesunoan/travel/main/city_library.json';
 
 // 当前选中的导入方式
 let currentImportTab = 'local';
