@@ -1520,7 +1520,7 @@ to { opacity:1; transform:translateX(-50%) translateY(0)}
     </div>
   </div>
 </div><div class="modal-overlay" id="settingsModal"><div class="modal" style="max-width: 450px; position: relative;"><button data-action="close-settings" style="position: absolute; top: 15px; right: 15px; background: #f1f5f9; border: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px; color: #64748b; display: flex; align-items: center; justify-content: center; transition: all 0.2s; z-index: 10;">×</button><h3 style="padding-right: 40px; margin-bottom: 20px;">⚙️ 系统设置</h3><div style="background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 20px;"><div style="font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 15px; display: flex; align-items: center; gap: 8px;"><span>🔑</span><span>高德地图 API 设置</span></div><div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 12px; margin-bottom: 15px;"><div style="font-size: 12px; color: #0369a1; line-height: 1.6;"><strong>💡 使用说明：</strong><br>
- 配置高德Web服务API Key后，可在"网络搜索"中搜索更多景点。<br><a href="https://lbs.amap.com/" target="_blank" style="color: #3b82f6; text-decoration: underline;">前往高德开放平台 →</a> 注册并创建应用获取Key
+ 配置高德Web服务API Key后，可在"网络搜索"中搜索更多景点。<a href="https://lbs.amap.com/" target="_blank" style="color: #3b82f6; text-decoration: underline;">前往高德开放平台 →</a> 注册并创建应用获取Key
  </div></div><div class="input-group" style="margin-bottom: 12px;"><label style="font-size: 13px; color: #475569; font-weight: 600; margin-bottom: 6px; display: block;">API Key</label><input type="password" id="settingsGaodeApiKey" placeholder="输入高德Web服务API Key" style="width: 100%; padding: 10px 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 14px; transition: all 0.3s;"></div><div id="settingsApiKeyStatus" style="display: none; font-size: 12px; color: #10b981; margin-bottom: 12px; padding: 8px 12px; background: #f0fdf4; border-radius: 6px;">
  ✅ API Key 已保存
  </div><div style="display: flex; gap: 8px;"><button data-action="save-api-key" style="flex: 2; padding: 10px; background: #3b82f6; color: white; border: none; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 600;">💾 保存设置</button><button data-action="test-api-key" style="flex: 1; padding: 10px; background: #10b981; color: white; border: none; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 600;">🧪 测试</button><button data-action="clear-api-key" style="flex: 1; padding: 10px; background: #ef4444; color: white; border: none; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 600;">🗑️ 清除</button></div></div><!-- 景点库管理（合并本地导入和网络加载） -->
@@ -1528,13 +1528,6 @@ to { opacity:1; transform:translateX(-50%) translateY(0)}
   <div style="font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 15px; display: flex; align-items: center; gap: 8px;">
     <span>📚</span>
     <span>景点库管理</span>
-  </div>
-
-  <div style="background: linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%); border: 1px solid #86efac; border-radius: 8px; padding: 12px; margin-bottom: 15px;">
-    <div style="font-size: 12px; color: #166534; line-height: 1.6;">
-      <strong>💡 使用说明：</strong><br>
-      导入城市景点库可补充本地景点数据。支持<strong>本地JSON文件</strong>导入或从<strong>网络URL</strong>（GitHub Raw等）加载。导入后可在"添加景点"界面通过本地搜索查找这些景点。
-    </div>
   </div>
 
   <!-- 状态提示区域（共用） -->
